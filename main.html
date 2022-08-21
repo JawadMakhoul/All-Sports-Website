@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/shared.css" />
+    <!--definition the shared css file-->
+    
+    <!--private css file-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+    <!--definition the google fonts-->
+    <link
+      rel="icon"
+      href="../Website_207188673_212080170_316277011_2111620240/images/WhatsApp_Image_2021-06-02_at_16.33.42-removebg-preview.png"
+      type="image/icontype"
+    />
+    <!--definition the logo in the tab bar-->
+    <title>All sports</title>
+  </head>
+
+  <body>
+    <ul id="navbar">
+      <!-- Definitoin the navigation bar-->
+      <li>
+        <a href="main.html"
+          ><img
+            src="images/WhatsApp_Image_2021-06-02_at_16.33.42-removebg-preview.png"
+            alt=""
+            width="80"
+        /></a>
+        
+      </li>
+      
+      <li><a href="store.html">חנות אוהדים</a></li>
+      <li><a href="resStore.html">מסעדות</a></li>
+      <li><a href="https://www.isramedia.net/channels.php?category=3" target="_blank">קישור לצפייה במשחקים</a></li>
+      <li><a href="contactus.html">צור קשר</a></li>
+    </ul>
+    <div class="backimg">
+    <p id="words">FIFA WORLD CUP 2022</p>
+    <p id="counting"></p>
+    <p id="time">Days Hours Minutes Seconds</p>
+    <script>
+      
+      // countdown java script
+      // Set the date we're counting down to
+      var countDownDate = new Date("nov 20, 2022 18:00:00").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("counting").innerHTML =
+           days+ ":" + hours + ":" + minutes + ":" + seconds;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("counting").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    
+    </script>
+  
+
+</div>
+    <main>
+      
+      
+      <section id="bricks">
+
+        <div class="row masonry">
+   
+          <!-- brick-wrapper -->
+            <div class="bricks-wrapper">
+   
+              <div class="grid-sizer"></div>
+              <article class="brick entry format-standard animate-this">
+   
+                  <div class="entry-thumb">
+                     <a  class="thumb-link">
+                       <img src="images/amerson.jpeg" alt="building">             
+                     </a>
+                  </div>
+   
+                  <div class="entry-text">
+                    <div class="entry-header">
+   
+                      <div class="entry-meta">
+                        <span class="cat-links">
+                          <a href="https://www.football.org.il/" target="_blank">Football</a> 
+                          <a href="https://www.fcbarcelona.com/en/" target="_blank">Fcbarcelona</a>               				
+                        </span>			
+                      </div>
+   
+                      <h1 class="entry-title"><a>רשמי: אמרסון חתם בברצלונה עד קיץ 2024</a></h1>
+                      
+                    </div>
+               <div class="entry-excerpt">
+                ברצלונה ממשיכה לעבוד במרץ לקראת עונת 2021/22. לאחר שצירפה את סרחיו אגוארו ואריק גרסיה, הקטאלונים החתימו את אמרסון, המגן המצטיין של בטיס בשנתיים האחרונות, תמורת 9 מיליון יורו בחוזה עד קיץ 2024.
+
+                כזכור, הברזילאי לפני שלוש שנים על ידי בארסה, אבל הושאל מיד לאנדלוסים בהסכם של בעלות הדדית. אם הוא יימכר עוד הקיץ בטיס תקבל 50 אחוזים מסכום ההעברה ואם בקיץ הבא היא תקבל 20 אחוזים.
+                
+                במדי בטיס אמרסון הספיק לרשום 79 הופעות ואף כבש חמישה שערים והוסיף 10 בישולים בכל המסגרות. היכולת הנפלאה של המגן בשני צידי המגרש, הובילו את הירוקים לעונה מצוינת שהסתיימה עם המקום השישי ב'לה ליגה'.
+                
+                אגב, המגן יצטרף לקבוצתה לאחר משחקי הקופה אמריקה והאולימפיאדה בהם צפוי להיכלל בסגל נבחרת ברזיל, כשאת קדם העונה הוא יערוך עם חבריו החדשים. בעקבות זאת, כך לפחות מסתמן, סרג'י רוברטו צפוי לשלם את המחיר. הסיבה לכך: המגן/קשר מחזיק בחוזה לעונה נוספת בלבד, ובעל משכורת גבוה, ולכן במועדון ינסו למכור אותו בקיץ הנוכחי.
+               </div>
+                  </div>
+   
+               </article> <!-- end article -->
+   
+               <article class="brick entry format-standard animate-this">
+   
+                  <div class="entry-thumb">
+                     <a class="thumb-link">
+                       <img src="images/holon.webp" alt="ferris wheel">                   
+                     </a>
+                  </div>
+   
+                  <div class="entry-text">
+                    <div class="entry-header">
+   
+                      <div class="entry-meta">
+                        <span class="cat-links">
+                          <a href="https://nba.sport5.co.il/NBA.aspx?FolderId=402&lang=He&gr=www" target="_blank">Basketball</a>                			
+                        </span>			
+                      </div>
+   
+                      <h1 class="entry-title"><a>בתוך הקצב: חולון חזרה מפיגור ל-90:92 נגד נס ציונה</a></h1>
+                      
+                    </div>
+               <div class="entry-excerpt">
+                הפועל חולון היא ללא ספק אחת מהקבוצות המלהיבות של העונה בליגת העל בכדורסל, והערב (שלישי) היא פתחה את סדרת רבע גמר הפלייאוף נגד עירוני נס ציונה עם 90:92 מוצלח. הסגולים חזרו מפיגור דו ספרתי ברבע הראשון ועלו ל-0:1 בסדרה נגד מחזיקת היורופקאפ.
+
+                כאמור, נס ציונה פתחה את המשחק בסערה, ובהובלתם של בריאן אנגולה ופטריק מילר, לוח התוצאות הראה 9:22 לכתומים עוד לפני פתיחת הרבע השני. חולוניה לא התרגשה מהחולשה שלה בפתיחה וביצעה מהפך מרשים ברבע השני, בעיקר בשל נקודות של ווילי וורקמן, גיא פניני וסי ג'יי האריס, כאשר פרדריק בורדיון הציג יכולת גדולה בהגנה.
+                
+                כבר בירידה לחדרי ההלבשה הפער צמח שוב לדו ספרתי, הפעם לטובת חולון, אך החניכים של בראד גרינברג לא נכנעו לרגע. וויין סלדן ואנגולה צימקו את ההפרש עד לנקודה אחת בלבד, פניני הגיב מנגד עם נקודות חשובות שעזרו לקבוצה של סטפאונס דדאס להשיג לעלות לרבע המכריע עם מעט אוויר לנשימה.
+               </div>
+                  </div>
+                  
+               </article> <!-- end article -->
+   
+               <!-- format audio here -->
+               
+   
+              
+   
+              <article class="brick entry animate-this">
+   
+                  <div class="entry-thumb">
+                     <a h class="thumb-link">
+                       <img src="images/f1mercedes.jpeg" alt="Shutterbug">                      
+                     </a>
+                  </div>
+   
+                  <div class="entry-text">
+                    <div class="entry-header">
+   
+                      <div class="entry-meta">
+                        <span class="cat-links">
+                          <a href="https://www.formula1.com/" target="_blank">F1</a>                 				
+                        </span>			
+                      </div>
+   
+                      <h1 class="entry-title"><a>בפעם ה-7 ברצף: מרצדס זכתה באליפות היצרנים</a></h1>
+                      
+                    </div>
+               <div class="entry-excerpt">
+                עונת 2020 תזכר לנצח כאחת העונות הפחות שגרתיות בתולדות הפורמולה 1 כשהסבב נדד למסלולים רבים בהם לא ביקר במשך שנים ארוכות. כיאה לכך, שנה זו גם סיפקה כמה רגעים היסטורים ולאחר ציון הדרך המדהים של לואיס המילטון בשבוע שעבר, היום (ראשון) גם קבוצתו, מרצדס נכנסה לספרי השיאים. הגרמנים הבטיחו את אליפות היצרנים השביעית ברצף, ובעקבות זאת הפכו לקבוצה עם הכי הרבה זכיות רצופות בהיסטוריה של הסבב.
+                כזכור, הסבב שב לאימולה לאחר 14 שנים כאשר האירוע הזכור ביותר לחובבי הענף שהגיע מהמסלול באיטליה הוא התאונה הקטלנית של איירטון סנה ב-1994. בעקבות כך, המסלול שונה מבעבר והדבר השפיע על המרוץ כך שהנהגים התקשו לבצע עקיפות והתמקדו בטקטיקות של שמירת צמיגים.
+        ולטרי בוטאס התחיל את סוף השבוע טוב יותר כשהוא זכה בפול פוזישן הרביעי שלו העונה בהקפה האחרונה של המוקדמות. זה כבר היה נדמה שהפיני ישיג את ניצחונו השלישי העונה כשהבריטי נעקף על ידי מקס ורסטאפן בפתיחה אך פעם נוספת הכוכבים הסתדרו לכבודו של אלוף העולם. 
+               </div>
+                  </div>
+                  
+               </article> <!-- end article -->
+   
+               <article class="brick entry animate-this" >
+   
+                  <div class="entry-thumb">
+                     <a class="thumb-link">
+                       <img src="images/ramos234.jpeg" alt="USAF rocket">                      
+                     </a>
+                  </div>
+   
+                  <div class="entry-text">
+                    <div class="entry-header">
+   
+                      <div class="entry-meta">
+                        <span class="cat-links">
+                          <a href="https://www.football.org.il/" target="_blank">Football</a>
+                          <a href="https://www.realmadrid.com/en" target="_blank">Real Madrid</a>               				
+                        </span>			
+                      </div>
+   
+                      <h1 class="entry-title"><a>"הכסף ילך לאמבפה": ראמוס יוזם מרד בריאל?</a></h1>
+                      
+                    </div>
+               <div class="entry-excerpt">
+                אחרי שסימנה "וי" על מינוי המאמן, ריאל מדריד התפנתה להתעסק בעתידו של סרחיו ראמוס - ולפחות על פי הדיווחים, העתיד לא מבשר טובות. מצד אחד, כתב המקורב לבלם טוען שהוא מעוניין להישאר בבירת ספרד ומחכה להצעה לחוזה משדורג, אך מצד שני, כלי תקשורת אחרים במדינה טוענים שהצדדים בדרך לפרידה ואם לא די בכך - ראמוס מנסה להנהיג מרד בחדר ההלבשה.
+
+                לפי "אונדה סרו", ראמוס סירב לקצץ 10% משכרו "לעיני כל השחקנים בחדר ההלבשה". הסיבה: לטענת הבלם, הדבר נעשה כדי לאפשר לבלאנקוס לפנות כפסים להבאתו של קיליאן אמבפה.
+                
+                "כל הכסף יילך לאמבפה", אמר ראמוס לחבריו לקבוצה והפציר בהם לא לקבל את הצעת ההנהלה לקיצוץ, כך טוענים בספרד. גם העיתונאי ז'וספ פדרלול מ"אל צ'ירינגיטו" הצטרף לדיווחים.
+                בנוסף, ברדיו "קופה" מספרים כי לא פחות משבעה שחקנים של ריאל מדריד יעזבו בקיץ הקרוב, וחלקם אכן יימכרו כדי לנסות לממן את עסקת אמבפה. אחד מהם הוא רפאל וראן, שלא מעוניין לחדש את חוזהו, והבלאנקוס מתכוונים למכור אותו בסכום שינוע בין 35 ל-40 מיליון יורו.
+               </div>
+                  </div>
+                  
+               </article> <!-- end article -->        	
+   
+               
+               
+             
+   
+            </div> <!-- end brick-wrapper --> 
+   
+        </div> <!-- end row -->
+   
+        
+   
+      </section> <!-- end bricks -->
+    </main>
+    <footer>
+      <!--definition the footer-->
+
+      
+
+       &nbsp; Designed by AllSports Team, 2021 &copy;
+       <p>ג׳ואד מחול - 207188673 </p>
+       <p>פיראס סרור - 212080170</p>
+       <p>עידו ירקוני - 316277011</p>
+       <p>חנא בוארדי - 211620240</p>
+    </footer>
+  </body>
+</html>
