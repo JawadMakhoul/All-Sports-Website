@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { /* shared font family and font size*/
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem;
+}
+
+#navbar { /* definition of the navigation bar*/
+  list-style-type: none;
+  overflow: hidden;
+  
+  background: linear-gradient(to right,
+    #3e071d,
+    #5d0d28,
+    #70112f,
+    #5a0e24,
+    #5a0e24
+  );
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#navbar li { /* to make the items in the navigation bar in the right side of the bar*/
+  float: right;
+}
+
+#navbar li a { 
+  font-size: 1.3rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+#navbar li a:hover { /* to change the color when the mouse on it*/
+  background-color: white;
+  background-color: #3e071d;
+}
+
+footer { /* definition of the footer*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  background-color: #3e071d;
+}
+
+footer img { /* definition of images in the footer*/
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#button_contactus {
+  background-color: #3e071d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button_pay {
+  background-color: #3e071d;
+  color: white;
+  padding: 14px 40px;
+  margin-left: 40%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+
+}
+button:hover {
+  opacity: 0.8;
+}
+
+#message{
+  text-align: center;
+  padding-top: 200px;
+}
+
+.backimg{
+
+  padding-top: 400px;
+  padding-bottom: 300px;
+  background-image: url(../images/Header-tickets.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#welcomet-shirts{
+  text-align: center;
+  border-top: 5px solid #3e071d;
+  border-right: 5px solid #3e071d;
+  color: #3e071d;
+  
+  margin-top: 100px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#welcomeRes{
+  text-align: center;
+  border-left: 5px solid #3e071d;
+  border-bottom: 5px solid #3e071d;
+  color: #3e071d;
+  margin-top: 100px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+
+.storemain {
+  padding-top: 80px;
+}
+
+
+
+.container { /* class for the images*/
+  background-color: white;
+  max-width: 1000px;
+  margin:auto; /*horizontally center the element within its container.*/
+  padding-top: 90px;
+  padding-bottom: 10px;
+  display: flex; /*The container becomes flexible*/
+  flex-wrap: wrap;/*Specifies that the flexible items will wrap if necessary*/
+  justify-content: space-around;/*Items are positioned with space before, between, and after the lines*/
+}
+
+.container  img {
+  width: 33%;
+ 
+}
+
+
+#counting {
+	/* id for the countdown*/
+  color: white;
+	text-align: center;
+  padding-right: 750px;
+	font-size: 90px;
+	
+  }
+  
+  #words {
+	/* id for the */
+	
+  padding-right: 750px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+  }
+
+#time{
+	text-align: center;
+  padding-right: 750px;
+	font-size: 45px;
+	color: white;
+}
+  
+.bricks-wrapper .entry-thumb {
+	position: relative;
+	overflow: hidden;
+}
+
+.bricks-wrapper .entry-thumb:hover .thumb-link::before {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+.bricks-wrapper .entry-text {
+	padding: 1.8rem 1.8rem 1.8rem;
+	background-color: white;
+}
+
+.bricks-wrapper .entry-header .entry-title {
+	font-size: 2.5rem;
+	line-height: 1.32;
+	margin-bottom: 1.8rem;	
+}
+
+.bricks-wrapper .entry-excerpt {
+	font-size: 1.5rem;
+	line-height: 2.7rem;
+	color: #999999;
+}
+#bricks {
+	padding-top: 50px;
+}
+
+#bricks .masonry {
+	max-width: 100%;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+.bricks-wrapper:before,
+.bricks-wrapper:after {
+	content: "";
+	display: table;
+}
+
+.bricks-wrapper:after {
+	clear: both;
+}
+
+.bricks-wrapper .grid-sizer,
+.bricks-wrapper .brick {
+	width: 25%;
+}
+
+.bricks-wrapper .brick {
+	float: left;
+	padding: 0 20px;
+}
+
+
+@media only screen and (max-width:960px) {
+	.bricks-wrapper .grid-sizer,
+	.bricks-wrapper .brick {
+		width: 100%;
+	}
+
+	.bricks-wrapper .featured-grid {
+		width: 100%;
+	}
+}
+
+
+
+
+.bricks-wrapper .entry-thumb .thumb-link img {
+	vertical-align: bottom;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.bricks-wrapper .entry-thumb .thumb-link::before {
+	content: "";
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.bricks-wrapper .entry-thumb:hover .thumb-link img {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#choose_to_buy{
+  margin-left: 40%;
+}
+
+
+/* contactus */
+#info{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+#input{
+  padding-top: 100px;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* CHECKOUT */
+.rowCHECKOUT {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25CHECKOUT {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50CHECKOUT {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75CHECKOUT {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25CHECKOUT,
+.col-50CHECKOUT,
+.col-75CHECKOUT {
+  padding: 0 16px;
+}
+
+.containerCHECKOUT {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+.icon-containerCHECKOUT {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btnCHECKOUT {
+  background-color: #3e071d;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btnCHECKOUT:hover {
+  opacity: 0.8;
+}
+
+span.priceCHECKOUT {
+  float: right;
+  color: grey;
+}
+
