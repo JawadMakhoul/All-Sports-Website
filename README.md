@@ -2,7 +2,7 @@
 
 In "introduction to information technology in the organization" course, I and 3 students build this website to represent sports online store with a subscription to restaurants and bars that streams games, also you will find news for all kind of sport.
 
-each page have a navbar that makes you move between the pages.
+Each page have a navbar that makes you move between the pages.
 
 Main page: (main.index)
 you will find a countdown for the FIFA WORLD CUP 2022.
