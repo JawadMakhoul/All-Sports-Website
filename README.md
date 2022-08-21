@@ -22,4 +22,4 @@ Fifth option (contactus.index) is a contact page to get an answer from the compa
 
 
 
-* Send an email for any questions -> jawad.makhoul9@gmail.com *
+* Please contact me if there are any questions -> jawad.makhoul9@gmail.com *
