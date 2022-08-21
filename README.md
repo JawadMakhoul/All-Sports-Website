@@ -1,4 +1,4 @@
-# Football-Fans-Website
+# All-Sports-Website
 
 In "introduction to information technology in the organization" course, I and 3 students build this website to represent sports online store with a subscription to restaurants and bars that streams games, also you will find news for all kind of sport.
 
